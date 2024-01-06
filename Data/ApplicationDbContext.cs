@@ -8,6 +8,7 @@ namespace DoHuyHoang781.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {}
         public DbSet<DoHuyHoang781.Models.Student> Student { get; set; } = default!;
+        public DbSet<DoHuyHoang781.Models.Subject> Subject { get; set; } = default!;
 
     }
 }
